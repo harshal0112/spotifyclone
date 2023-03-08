@@ -1,0 +1,100 @@
+
+body {
+    margin: 0px;
+    font-family: spotify-circular, Helvetica, Arial;
+    overflow-x: hidden;
+    text-align: center;
+  }
+
+.top-one header div .logo {
+    width: 135px;
+    filter: invert(0%) sepia(4%) saturate(16%) hue-rotate(118deg) brightness(94%) contrast(106%);
+    margin: 35px 0px 20px 0px;
+}
+
+header {
+  width: 600px;
+}
+
+.separator {
+  display: inline-block;
+  width: 135px;
+  color: #000000;
+}
+
+.hr-left {
+  float: left;
+}
+
+.hr-right {
+  float: right;
+}
+
+header h1 {
+  letter-spacing: -2px;
+  
+  font-weight: bolder;
+}
+
+.facebook {
+  padding: 0px;
+  height: 45px;
+  width: 400px;
+  overflow: hidden;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 22.5px;
+  border: 2px solid #384f81;
+  font-size: 15px;
+  margin: 10px;
+  color: #ffffff;
+  background-color: #384f81;
+}
+
+.google {
+  height: 45px;
+  width: 400px;
+  overflow: hidden;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 22.5px;
+  border: 0px solid;
+  font-size: 15px;
+  margin: 10px;
+  margin-bottom: 40px;
+  background-color: #ffffff;
+  border: 2px solid #000000;
+}
+
+button img {
+  width: 20px;
+}
+
+.top-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottom-two {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.entry-title {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.entry {
+  height: 40px;
+}
